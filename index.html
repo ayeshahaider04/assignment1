@@ -7,7 +7,7 @@
 <!--The UTF-8 character set provides the most support for all symbols and
 characters-->
 <meta charset="UTF-8">
-<title>HTML Template</title>
+<title>Home </title>
 <!-- The following line links to our style sheet file-->
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -16,34 +16,35 @@ characters-->
 <!--All our content is enclosed in the wrapper ID style-->
 <div id="wrapper">
 <!--The banner ID style is inside the wrapper ID style-->
-<div id="banner">
-<h1>Website for [your class nickname]</h1>
-</div>
-<!--left-column ID style is floated left and used for navigation-->
-<div id="left-column">
-<h3>Links...</h3>
+    <header id="banner">
+        <!--<header> element to organize all the content that goes at the top of our page.-->
+        <h1>Ayesha Haider</h1>
+        <nav>
+            <!-- any navigation element, these will navigate to the pages containing the home, about, projects, and content sections-->
+            <h4>
+                <a class="button" href="index.html">Home</a>
+                <a class="button" href="about.html">About</a>
+                <a class="button" href="projects.html">Projects</a>
+                <a class="button" href="contact.html">Contact</a>
+            </h4>
+        </nav>
+    </header>
+
+<h3>Hello!</h3>
+ <!--creating an unordered list-->
 <ul>
-<li> <a href="http://www.w3schools.com/">Reference: W3Schools</a></li>
-<li> <a href="feedback.html">Feedback Form</a></li>
-<li> <a href="video.html">Video</a></li>
+<li> <p>This is my website for Assignment 1</p></li>
+<li> <p>The goal of this website is to get to know me</p></li>
+<li> <p>Thank you, and I hope you enjoy!</p></li>
 </ul>
 </div>
-<!--right-column ID style is floated right and used for content-->
-<div id="right-column">
-<h2>Right Column Heading Here </h2>
-<p>Right column content here </p>
-<div class="box"><p>Box content</p></div>
-<div class="box"><p>Box content</p></div>
-<div class="box"><p>Box content</p></div>
-<div class="box"><p>Box content</p></div>
-<div class="box"><p>Box content</p></div>
-<div class="box"><p>Box content</p></div>
-</div>
+
 <!--The clear class style clears (removes) float-->
 <div class="clear"></div>
-<div id="footer">
-<h5>Site by [your class nickname]</h5>
-</div>
+    <footer>
+        <h5>© <span id="year">2025</span> Ayesha Haider · <a href="ayesha.haider@ontariotechu.net">ayesha.haider@ontariotechu.net</a></h5>
+    </footer>
+<!-- closing tags-->
 </div>
 </body>
 </html>
