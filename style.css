@@ -2,7 +2,8 @@
 /* CSS Document */
 /* The body tag style applies to all elements on the page */
 body {
-background-color: black;
+background: linear-gradient(rgb(223, 59, 59), rgb(240, 240, 56));
+
 font-family: Verdana, Geneva, Arial, sans-serif;
 padding:0px;
 margin:0px;
