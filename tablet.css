@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+/* The body tag style applies to all elements on the page */
+body {
+background: linear-gradient(rgb(223, 59, 59), rgb(240, 240, 56));
+
+font-family: Verdana, Geneva, Arial, sans-serif;
+padding:0px;
+margin:0px;
+}
+/* The wrapper ID style is used with a div tag to provide a 960px wide page */
+#wrapper {
+width: 66%;height: 800px;
+margin-left: auto;
+margin-right: auto;
+background-color:LightSlateGrey ;
+}
+
+/* Defining a style for a set of tags separated by commas applies the style to
+all tags */
+h1,h2,h3,h4,h5,h6,p,li {
+margin-left:15px;
+}
+#footer {
+height:80px;
+}
+#banner{
+height:120px;
+background-color:SlateGrey;
+}
+/* Defining a style for a set of tags not separated by commas applies the style
+only to all tags within the preceding tag*/
+#banner h1 {
+color: white;
+}
+
+/* This clear class style terminates float */
+.clear{
+clear: both;
+}
+
+/* This is to resize the photo under the about me section to an approperiate size */
+.about-photo {
+    width:300px;
+}
